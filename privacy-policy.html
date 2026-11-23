@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy | SAN-ZUI</title>
+    <meta name="description" content="SAN-ZUIおよびColor Huntにおける情報の取り扱いについて。" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header container">
+      <a class="brand" href="index.html">SAN-ZUI</a>
+      <nav aria-label="メインナビゲーション">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="works.html">Projects</a></li>
+          <li><a href="tools.html">Tools</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container page-main">
+      <p class="eyebrow">PRIVACY</p>
+      <h1>Privacy Policy</h1>
+      <p class="lead">SAN-ZUI（個人制作）とカメラアプリ「Color Hunt」における情報の取り扱いを説明します。</p>
+      <p>最終更新日：2026年11月23日</p>
+
+      <aside class="notice" aria-label="公開前の確認事項">
+        <strong>公開前の確認が必要です</strong>
+        <p>このページは現在のソースコードをもとに作成したドラフトです。フィードバック情報の保存期間と削除方法、Cloudflareのログ設定を確認してから公開してください。</p>
+      </aside>
+
+      <section class="text-block">
+        <h2>1. 対象と運営者</h2>
+        <p>本ポリシーは、SAN-ZUI公式サイト（san-zui.com）とColor Huntに適用します。運営者はSAN-ZUI（個人制作）です。お問い合わせは <a href="mailto:samizusha@gmail.com">samizusha@gmail.com</a> で受け付けます。</p>
+      </section>
+
+      <section class="text-block">
+        <h2>2. 公式サイトについて</h2>
+        <p>サイトの配信設定はCloudflare Workersを利用する構成です。サイトの表示や不正利用対策のため、CloudflareがIPアドレス、アクセス日時、ブラウザー情報、閲覧先などの通信に伴う技術情報を処理する場合があります。ログの有効範囲と保存期間はCloudflare側の設定を確認後に確定します。</p>
+        <p>確認したサイトのHTMLには、広告・アクセス解析のタグや問い合わせフォームはありません。今後追加する場合は、取得する情報と利用目的をこのポリシーに反映します。</p>
+      </section>
+
+      <section class="text-block">
+        <h2>3. Color Huntで扱う写真と端末内データ</h2>
+        <p>Color Huntは会員登録・ログインを必要としません。撮影した写真、撮影途中のセッション情報、完成したコラージュ画像はアプリ内の処理に使い、確認した実装では開発者のサーバーへ送信しません。</p>
+        <p>撮影途中の写真は端末のアプリ用保存領域に置かれます。撮影を開始した未完了セッションは、開始から24時間経過後にアプリ起動時に削除されます。完成した作品はアプリ内の作品一覧に保存され、作品一覧から削除できます。完成画像を端末の写真ライブラリへ保存する機能もあります。</p>
+        <p>共有操作では、ユーザーがOSの共有画面から選んだアプリへ完成画像を渡します。共有先での取り扱いは、そのアプリの提供者のポリシーに従います。共有画面を開いただけでSNSへ自動投稿することはありません。</p>
+        <p>カメラ機能の利用時にカメラ権限が必要です。確認したAndroid設定ではカメラ権限が宣言されています。録音機能はカメラ初期化時に無効化されています。端末やOSのバックアップ設定により、アプリ保存領域のデータが端末のバックアップに含まれる場合があります。</p>
+      </section>
+
+      <section class="text-block">
+        <h2>4. フィードバック送信（Android）</h2>
+        <p>Android版には任意のフィードバック送信機能があります。送信時に、入力した本文（最大2,000文字）と種別、送信日時、端末メーカー、機種名、Androidのバージョン、アプリのバージョンをGoogle FirebaseのCloud Firestoreへ送信します。氏名やメールアドレスの入力欄、写真の添付機能は確認した実装にありません。本文に個人情報や写真を含めないでください。</p>
+        <p>Android版ではFirebase App Checkを有効にし、リリース時はPlay Integrityを利用する設定です。Googleのサービスがアプリの完全性確認に必要な情報を処理する場合があります。</p>
+        <p class="pending">公開前確認：フィードバック情報の保存期間、Firestoreの削除手順、Firebaseのデータ処理設定を確認し、具体的な保存・削除方針を追記します。</p>
+      </section>
+
+      <section class="text-block">
+        <h2>5. 広告・解析・クラッシュ報告</h2>
+        <p>確認したColor Huntの直接依存関係とソースコードでは、広告SDK、アクセス解析SDK、クラッシュレポートSDKは確認できませんでした。一方、Firebase Core、Cloud Firestore、Firebase App Checkは組み込まれています。公開前に、推移依存SDK、Firebase Consoleの設定、Google PlayのData safety申告も照合します。</p>
+      </section>
+
+      <section class="text-block">
+        <h2>6. 第三者への提供</h2>
+        <p>写真や完成画像を開発者が収集・公開・二次利用する機能は、確認した実装にはありません。フィードバック送信を選んだ場合は、送信内容がGoogle FirebaseのCloud Firestoreに保存されます。法令に基づく場合を除き、開発者がフィードバック情報を別の目的で第三者へ提供することはありません。</p>
+      </section>
+
+      <section class="text-block">
+        <h2>7. 保存期間、削除、問い合わせ</h2>
+        <p>端末内の撮影途中のデータと完成作品は、上記のアプリ内削除機能やセッション期限に従います。OSのバックアップや写真ライブラリに保存されたコピーは、アプリ内から削除しても残る場合があります。</p>
+        <p>フィードバック情報の保存期間と削除方法は、Firebaseの運用設定を確認してから確定します。削除依頼は <a href="mailto:samizusha@gmail.com">samizusha@gmail.com</a> で受け付けます。</p>
+      </section>
+
+      <section class="text-block">
+        <h2>8. 改定</h2>
+        <p>アプリの機能や情報の取り扱いを変更した場合、本ページを更新し、必要に応じてアプリやサイトでお知らせします。</p>
+      </section>
+    </main>
+    <footer class="site-footer container">
+      <nav aria-label="フッターナビゲーション">
+        <ul class="footer-list">
+          <li><a href="privacy-policy.html" aria-current="page">Privacy Policy</a></li>
+          <li><a href="terms-of-use.html">Terms of Use</a></li>
+          <li><a href="credits.html">Credits</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <small>© SAN-ZUI</small>
+    </footer>
+  </body>
+</html>
